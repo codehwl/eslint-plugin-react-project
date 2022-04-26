@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-project",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A eslint plugin for react project.",
   "keywords": [
     "eslint",
@@ -10,6 +10,11 @@
   ],
   "author": "gilfoyle",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilfoylehuang/eslint-plugin-react-project"
+  },
+  "homepage": "https://github.com/gilfoylehuang/eslint-plugin-react-project",
   "scripts": {},
   "dependencies": {
     "eslint": "^7.23.0",
@@ -25,5 +30,5 @@
   "peerDependencies": {
     "eslint": "^7.23.0"
   },
-  "license": "ISC"
+  "license": "MIT"
 }
