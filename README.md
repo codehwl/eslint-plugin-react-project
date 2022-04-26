@@ -18,8 +18,8 @@ Add `.eslintrc.js` configuration file to the project root directory:
 
   ```js
   module.exports = {
-    extends: ["plugin:react-project/base"],
-    plugins: ["react-project"],
+    extends: ['plugin:react-project/base'],
+    plugins: ['react-project'],
   }
   ```
 
@@ -27,8 +27,8 @@ Add `.eslintrc.js` configuration file to the project root directory:
 
   ```js
   module.exports = {
-    extends: ["plugin:react-project/typescript"],
-    plugins: ["react-project"],
+    extends: ['plugin:react-project/typescript'],
+    plugins: ['react-project'],
   }
   ```
 
@@ -38,7 +38,7 @@ Add `.eslintrc.js` configuration file to the project root directory:
 
 2、Add `.vscode/settings.json` file to the project root directory:
 
-```js
+```json
 {
   "javascript.format.enable": false,
   "typescript.format.enable": false,
