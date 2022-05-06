@@ -1,5 +1,7 @@
 # eslint-plugin-react-project
 
+[简体中文说明](./README-ZH.md)
+
 A eslint plugin for react project.
 
 ## Installation
@@ -19,7 +21,7 @@ Add `.eslintrc.js` configuration file to the project root directory:
   ```js
   module.exports = {
     extends: ['plugin:react-project/base'],
-    plugins: ['react-project'],
+    plugins: ['react-project']
   }
   ```
 
@@ -28,11 +30,11 @@ Add `.eslintrc.js` configuration file to the project root directory:
   ```js
   module.exports = {
     extends: ['plugin:react-project/typescript'],
-    plugins: ['react-project'],
+    plugins: ['react-project']
   }
   ```
 
-## with Visual Studio Code
+## With Visual Studio Code
 
 1、Install VS Code ESLint extension.
 

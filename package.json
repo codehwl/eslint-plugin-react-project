@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-project",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A eslint plugin for react project.",
   "keywords": [
     "eslint",
