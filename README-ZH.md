@@ -12,22 +12,31 @@ npm install eslint-plugin-react-project --save-dev
 ```
 
 ## 使用方法
-在您的项目根目录中，添加一个 `.eslintrc.js` 文件。
+在您的项目根目录中，添加一个 `.eslintrc.json` 文件。
 
 - 如果您的React项目使用`JavaScript`开发，那`.eslintrc.js`文件内容如下：
 
-  ```js
-  module.exports = {
-    extends: ['plugin:react-project/base'],
-    plugins: ['react-project']
+  ```json
+  {
+    "extends": [
+      "plugin:react-project/base"
+    ],
+    "plugins": [
+      "react-project"
+    ]
   }
+  ```
 
 - 如果您的React项目使用`TypeScript`开发，那`.eslintrc.js`文件内容如下：
 
-  ```js
-  module.exports = {
-    extends: ['plugin:react-project/typescript'],
-    plugins: ['react-project']
+  ```json
+  {
+    "extends": [
+      "plugin:react-project/typescript"
+    ],
+    "plugins": [
+      "react-project"
+    ]
   }
   ```
 
@@ -48,11 +57,12 @@ npm install eslint-plugin-react-project --save-dev
   },
   "editor.formatOnSave": true,
   "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "javascript",
     "typescript",
     "javascriptreact",
-    "typescriptreact",
+    "typescriptreact"
   ],
   "prettier.enable": false
 }

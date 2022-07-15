@@ -14,23 +14,31 @@ npm install eslint-plugin-react-project --save-dev
 
 ## Usage
 
-Add `.eslintrc.js` configuration file to the project root directory:
+Add `.eslintrc.json` configuration file to the project root directory:
 
 - if you use React and JavaScript:
 
-  ```js
-  module.exports = {
-    extends: ['plugin:react-project/base'],
-    plugins: ['react-project']
+  ```json
+  {
+    "extends": [
+      "plugin:react-project/base"
+    ],
+    "plugins": [
+      "react-project"
+    ]
   }
   ```
 
 - if you use React and TypeScript:
 
-  ```js
-  module.exports = {
-    extends: ['plugin:react-project/typescript'],
-    plugins: ['react-project']
+  ```json
+  {
+    "extends": [
+      "plugin:react-project/typescript"
+    ],
+    "plugins": [
+      "react-project"
+    ]
   }
   ```
 
@@ -50,11 +58,12 @@ Add `.eslintrc.js` configuration file to the project root directory:
   },
   "editor.formatOnSave": true,
   "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
   "eslint.validate": [
     "javascript",
     "typescript",
     "javascriptreact",
-    "typescriptreact",
+    "typescriptreact"
   ],
   "prettier.enable": false
 }
